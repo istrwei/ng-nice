@@ -1,9 +1,9 @@
 var config = {
-    port               : 8888,
+    port               : 80,
     host               : "127.0.0.1",
     domain             : ".ngnice.local",
-    baseUrl            : "http://127.0.0.1:8888",
-    mongoServer        : "mongodb://127.0.0.1/ngnice",
+    baseUrl            : "http://127.0.0.1:80",
+    mongoServer        : "mongodb://strwei:6827393@ds131340.mlab.com:31340/strwei",
     cookieSecret       : "WOJIUSHINIUBI123456",
     errorHandlerOptions: {
         dumpExceptions: true,
